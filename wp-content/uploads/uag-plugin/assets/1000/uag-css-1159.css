@@ -1,0 +1,53 @@
+.download-popup {
+    display: none !important;  /* Hide by default */
+    position: fixed; 
+    z-index: 9999;  /* High z-index to ensure it appears above other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.download-popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 500px;
+}
+
+.download-popup-close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.download-popup-close:hover {
+    color: black;
+}
+
+
+.journal-container {
+    margin-top: 20px;
+}
+
+.journal-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.journal-header h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.journal-info p {
+    margin: 5px 0;
+}
+.uag-blocks-common-selector{z-index:var(--z-index-desktop) !important}@media (max-width: 976px){.uag-blocks-common-selector{z-index:var(--z-index-tablet) !important}}@media (max-width: 767px){.uag-blocks-common-selector{z-index:var(--z-index-mobile) !important}}
